@@ -1,0 +1,27 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - dotfiles::vim
+    mac_os_x:
+        - applications::sublime_text_3
+        - osxdefaults::finder_display_full_path
+        - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
+        - osxdefaults::finder_new_finder_windows_shows_homefolder
+        - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+        - osxdefaults::finder_unhide_home
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - wget
+            - rbenv
+            - zsh
+        cask_apps:
+            - webstorm
+            - rubymine
+            - pycharm
+            - sequel-pro
+            - sourcetree
+            - recordit
+    
