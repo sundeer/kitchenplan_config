@@ -14,8 +14,10 @@ attributes:
 #            - git
         cask_apps:
             - google-chrome
+            - firefox
             - dropbox
             - onepassword
+            - crashplan
 #    nodejs:
 #        apps:
 #            - bower
