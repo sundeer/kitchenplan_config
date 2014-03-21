@@ -17,7 +17,6 @@ attributes:
             - firefox
             - dropbox
             - onepassword
-            - crashplan
 #    nodejs:
 #        apps:
 #            - bower
