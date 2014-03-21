@@ -36,8 +36,8 @@ attributes:
             - git
             - git-extras
             - wget
-            - rbenv
-            - "ruby-build"
+            #- rbenv
+            #- "ruby-build"
             - zsh
             #- python
             #    --with-brewed-openssl"
