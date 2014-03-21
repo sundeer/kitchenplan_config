@@ -9,3 +9,4 @@ attributes:
     homebrewalt:
         apps:
         cask_apps:
+            - crashplan
