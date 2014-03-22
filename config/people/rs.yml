@@ -1,12 +1,14 @@
 groups:
     - dev
 recipes:
-    #mac_os_x:
-    #    - osxdefaults::set_computer_name
+    mac_os_x:
+        - osxdefaults::set_computer_name
 attributes:
-    #osxdefaults:
-    #    computername: rs-dev
-    #homebrewalt:
-    #    apps:
-    #    cask_apps:
-    #        - crashplan
+    osxdefaults:
+        computername: rs-dev
+    homebrewalt:
+        apps:
+        cask_apps:
+            - dropbox
+            - onepassword
+            - crashplan
