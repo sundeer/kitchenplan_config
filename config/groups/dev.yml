@@ -1,10 +1,10 @@
 recipes:
     global:
-        - dotfiles::bash_it
+        #- dotfiles::bash_it
         - dotfiles::inputrc
         - dotfiles::gitconfig
         - dotfiles::vim
-        - applications::bash
+        #- applications::bash
     mac_os_x:
         - applications::sublime_text_3
         - nodejs::default
