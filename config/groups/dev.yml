@@ -28,9 +28,6 @@ attributes:
                 - airline: https://github.com/bling/vim-airline
                 - syntastic: git://github.com/scrooloose/syntastic.git
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
-    git:
-        name: sundeer
-        email: sundeer@rhsjmm.com
     homebrewalt:
         apps:
             - bash-completion
@@ -52,5 +49,10 @@ attributes:
             - sequel-pro
             - sourcetree
             - recordit
+    git:
+        name: sundeer
+        email: sundeer@rhsjmm.com
+
+    
 
 
