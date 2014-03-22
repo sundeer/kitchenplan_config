@@ -36,7 +36,7 @@ attributes:
             - git
             - git-extras
             - wget
-            #- rbenv
+            - rbenv
             #- "ruby-build"
             - zsh
             #- python
