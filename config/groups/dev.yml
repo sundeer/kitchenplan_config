@@ -6,6 +6,7 @@ recipes:
         - dotfiles::vim
         #- applications::bash
     mac_os_x:
+        - homebrewalt::default
         - applications::sublime_text_3
         #- nodejs::default
         - osxdefaults::finder_display_full_path
