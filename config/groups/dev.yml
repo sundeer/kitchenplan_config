@@ -47,7 +47,7 @@ attributes:
             #- python
             #    --with-brewed-openssl"
         cask_apps:
-            - webstorm
+            #- webstorm
             - rubymine
             - pycharm
             - sequel-pro
