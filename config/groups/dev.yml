@@ -58,14 +58,14 @@ attributes:
     git:
         name: sundeer
         email: sundeer@rhsjmm.com
-    nodejs:
-        apps:
-            - phonegap
-            - cordova
-            - ionic
-            - bower
-            - grunt
-            - grunt-cli
+    #nodejs:
+    #    apps:
+    #        - phonegap
+    #        - cordova
+    #        - ionic
+    #        - bower
+    #        - grunt
+    #        - grunt-cli
 
 
 
