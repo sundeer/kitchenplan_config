@@ -2,3 +2,7 @@ recipes:
     global:
     mac_os_x:
 attributes:
+    homebrewalt:
+        apps:
+        caskapps:
+            - omnifocus

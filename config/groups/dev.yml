@@ -4,9 +4,10 @@ recipes:
         #- dotfiles::inputrc
         #- dotfiles::gitconfig
         - dotfiles::vim
+        #- applications::postgresql
+        #- applications::mysql
         #- applications::bash
     mac_os_x:
-        - homebrewalt::default
         - applications::sublime_text_3
         #- nodejs::default
         - osxdefaults::finder_display_full_path
@@ -17,6 +18,7 @@ recipes:
         - osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
 attributes:
+    #mysql_root_password: "password"
     dotfiles:
         vimusers:
             - rs
@@ -30,16 +32,18 @@ attributes:
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
     homebrewalt:
         apps:
-            - bash-completion
             - git
             - git-extras
             - wget
-            - rbenv
-            - "rbenv-ruby-build"
-            - "rbenv-gem-rehash"
-            - "rbenv-default-gems"
-            - "rbenv-gemset"
+            - sqlite3
+            - openssl
+            - libtool
+            - libxslt
+            - libksba
+            - libyaml
             - zsh
+            - mysql
+            - htop
             #- python
             #    --with-brewed-openssl"
         cask_apps:
@@ -49,10 +53,20 @@ attributes:
             - sequel-pro
             - sourcetree
             - recordit
+            - alfred
+            - dash
     git:
         name: sundeer
         email: sundeer@rhsjmm.com
+    nodejs:
+        apps:
+            - phonegap
+            - cordova
+            - ionic
+            - bower
+            - grunt
+            - grunt-cli
 
-    
+
 
 
