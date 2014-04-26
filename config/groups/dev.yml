@@ -55,6 +55,7 @@ attributes:
             - recordit
             - alfred
             - dash
+            - iterm2
             #- sublime test 3
     git:
         name: sundeer
