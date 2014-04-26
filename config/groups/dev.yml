@@ -8,7 +8,7 @@ recipes:
         #- applications::mysql
         #- applications::bash
     mac_os_x:
-        #- applications::sublime_text_3
+        - applications::sublime_text_3
         #- nodejs::default
         - osxdefaults::finder_display_full_path
         - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
@@ -47,14 +47,14 @@ attributes:
             #- python
             #    --with-brewed-openssl"
         cask_apps:
-            #- webstorm
-            #- rubymine
-            #- pycharm
-            #- sequel-pro
-            #- sourcetree
-            #- recordit
-            #- alfred
-            #- dash
+            - webstorm
+            - rubymine
+            - pycharm
+            - sequel-pro
+            - sourcetree
+            - recordit
+            - alfred
+            - dash
             #- sublime test 3
     git:
         name: sundeer
