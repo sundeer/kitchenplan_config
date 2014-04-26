@@ -9,6 +9,7 @@ recipes:
         #- applications::bash
     mac_os_x:
         - applications::sublime_text_3
+        - rvm::system
         #- nodejs::default
         - osxdefaults::finder_display_full_path
         - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
