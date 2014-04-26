@@ -48,13 +48,13 @@ attributes:
             #    --with-brewed-openssl"
         cask_apps:
             #- webstorm
-            - rubymine
-            - pycharm
-            - sequel-pro
-            - sourcetree
-            - recordit
-            - alfred
-            - dash
+            #- rubymine
+            #- pycharm
+            #- sequel-pro
+            #- sourcetree
+            #- recordit
+            #- alfred
+            #- dash
     git:
         name: sundeer
         email: sundeer@rhsjmm.com
