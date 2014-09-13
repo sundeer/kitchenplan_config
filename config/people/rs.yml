@@ -3,6 +3,8 @@ groups:
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
+        - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+        - osxdefaults::menu_show_clock_with_date
 attributes:
     osxdefaults:
         computername: rs-dev
@@ -13,3 +15,4 @@ attributes:
             - onepassword
             - crashplan
             - google-chrome
+            - cheatsheet
